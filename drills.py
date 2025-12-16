@@ -11,12 +11,12 @@ grades = {}
 
 for i in scores:
     if scores[i] > 90:
-        grades[i] = "Outstanding"
+        grades[i] = "A"
     elif scores[i] > 80:
-        grades[i] = "Exceeds Expectations"
+        grades[i] = "B"
     elif scores[i] > 70:
-        grades[i] = "Acceptable"
+        grades[i] = "C"
     else:
-        grades[i] = "Fail"
+        grades[i] = "F"
 
 print(grades)
